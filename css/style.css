@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiAyp8kv8JHgFVrJJLmE0tCMPc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmv1pVF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm21lVF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrJJLucHtF.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmg1hVF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmr19VF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm111VF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm81xVF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrLPTucHtF.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Syncopate';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/syncopate/v21/pe0sMIuPIYBCpEV5eFdCBfe6.ttf) format('truetype');
+}
+/* Global Styles */
+* {
+  box-sizing: border-box !important;
+  transition: ease all 0.5s;
+}
+body {
+  width: 100%;
+  height: 100%;
+  color: #666666;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+/* Collection Section */
+.collection_text {
+  width: 100%;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  background-color: #cf434f;
+  padding: 30px 0px;
+}
+/* About Section */
+.about_main {
+  padding: 20px;
+}
+.about_main .collection_section {
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  /* Reduce margin to lessen gap */
+  text-align: left;
+  /* Align collection section text to the left */
+}
+.about_main .collection_section .container .new_text {
+  width: 100%;
+  float: left;
+  font-size: 2em;
+  color: #0c0116;
+  font-weight: bold;
+}
+.about_main .collection_section .container .consectetur_text {
+  width: 100%;
+  float: left;
+  font-size: 1.2em;
+  color: #0c0116;
+  font-weight: 400;
+  margin-left: 0px;
+  padding-bottom: 20px;
+  /* Reduce padding to lessen gap */
+}
+.about_main .collectipn_section_3 {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+  margin: 20px 0;
+  /* Reduce margin to separate the grey box from header and footer */
+}
+.about_main .collectipn_section_3 .container .racing_shoes {
+  width: 100%;
+  float: left;
+  background-color: #F2F2F2;
+  /* Grey background box */
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_main .collectipn_section_3 .container .racing_shoes .row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* Center align the shoes and sales tag */
+  align-items: center;
+}
+.about_main .collectipn_section_3 .container .racing_shoes .shoes-img3 {
+  text-align: center;
+}
+.about_main .collectipn_section_3 .container .racing_shoes .shoes-img3 img {
+  width: 70%;
+}
+.about_main .collectipn_section_3 .container .racing_shoes .sale_text {
+  font-size: 2.5em;
+  /* Increase font size */
+  color: #cf434f;
+  line-height: 1.5em;
+}
+.about_main .collectipn_section_3 .container .racing_shoes .sale_text span {
+  color: #0a0506;
+}
+.about_main .collectipn_section_3 .container .racing_shoes .number_text {
+  font-size: 2.5em;
+  /* Increase font size */
+  color: #cf434f;
+  line-height: 1.5em;
+}
+.about_main .collectipn_section_3 .container .racing_shoes .number_text span {
+  color: #0a0506;
+}
+.about_main .collectipn_section_3 .container .racing_shoes .seemore {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #cf434f;
+  /* Red background */
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin-top: 35px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* Footer */
+.copyright {
+  width: 100%;
+  float: left;
+  font-size: 1em;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #cf434f;
+  font-family: 'Poppins', sans-serif;
+}

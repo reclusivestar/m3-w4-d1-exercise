@@ -1,0 +1,140 @@
+@import 'colors.less';
+@import 'fonts.less';
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: @grey-color;
+    font-size: 1em;
+    font-family: @font-primary;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.collection_text {
+    width: 100%;
+    float: left;
+    color: @light-color;
+    text-align: center;
+    font-family: @font-secondary;
+    font-weight: bold;
+    font-size: 3em;
+    background-color: @primary-color;
+    padding: 30px 0px;
+}
+
+/* About Section */
+.about_main {
+    padding: 20px;
+    .collection_section {
+        width: 100%;
+        float: left;
+        margin-top: 20px; 
+        text-align: left; 
+
+        .container {
+            .new_text {
+                width: 100%;
+                float: left;
+                font-size: 2em;
+                color: @dark-color;
+                font-weight: bold;
+            }
+
+            .consectetur_text {
+                width: 100%;
+                float: left;
+                font-size: 1.2em;
+                color: @dark-color;
+                font-weight: 400;
+                margin-left: 0px;
+                padding-bottom: 20px; 
+            }
+        }
+    }
+
+    .collectipn_section_3 {
+        width: 100%;
+        float: left;
+        padding-top: 0px;
+        margin: 20px 0; 
+
+        .container {
+            .racing_shoes {
+                width: 100%;
+                float: left;
+                background-color: #F2F2F2; 
+                padding: 70px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .row {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center; 
+                    align-items: center;
+                }
+
+                .shoes-img3 {
+                    text-align: center;
+                    img {
+                        width: 70%;
+                    }
+                }
+
+                .sale_text {
+                    font-size: 2.5em; 
+                    color: @primary-color;
+                    line-height: 1.5em;
+
+                    span {
+                        color: @highlight-color;
+                    }
+                }
+
+                .number_text {
+                    font-size: 2.5em; 
+                    color: @primary-color;
+                    line-height: 1.5em;
+
+                    span {
+                        color: @highlight-color;
+                    }
+                }
+
+                .seemore {
+                    display: inline-block;
+                    color: @light-color;
+                    background-color: @primary-color; 
+                    font-size: 1.2em;
+                    padding: 10px 20px;
+                    margin-top: 35px;
+                    text-align: center;
+                    border: none;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.copyright {
+    width: 100%;
+    float: left;
+    font-size: 1em;
+    color: @light-color;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: @primary-color;
+    font-family: @font-primary;
+}
